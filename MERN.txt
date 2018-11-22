@@ -1,0 +1,51 @@
+list app built with the MERN stack.
+
+
+MongoDB (database)
+Moongoose.js (elegant mongodb object modeling for node.js)
+
+Express.js (minimal and flexible Node.js web application framework )
+
+React.js ()
+Redux for state management
+Reactstrap and react-transition-group
+
+node.js 
+
+
+backend..???
+
+1. server - MongoDB Configuration/ Connect To MongoDB/ // Run SERVER On Port 5000
+
+2. route -  Object Route Modeling/ C>R>U>D/ setup routes for object MODEL
+
+3. models - Object Modeling Using mongoose.js/ setup database structure 
+
+
+
+frontend ....?
+
+1. app.js - clear unwanted <div>s
+
+2.create components folder for all component pages like nav bar, itemmodel, tasklist
+
+3.
+
+
+
+<div style={{height: '300px', position: 'relative'}}>
+    <Layout fixedHeader fixedTabs>
+        <Header>
+            <HeaderRow title="Title" />
+            <HeaderTabs ripple activeTab={1} onChange={(tabId) => {}}>
+                <Tab>Tab1</Tab>
+                <Tab>Tab2</Tab>
+                <Tab>Tab3</Tab>
+            </HeaderTabs>
+        </Header>
+        <Drawer title="Title" />
+        <Content>
+            <div className="page-content">You can add logic to update the content of this container based on the "activeTab" receive in the `onChange` callback.</div>
+        </Content>
+    </Layout>
+</div>
